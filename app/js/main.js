@@ -100,10 +100,10 @@ ggInsult.on('click', function () {
     bgIntelligence.text(Moriarty.intelligence);
     alert('Moriarty Sharpens His Wit >:|');
     Sherlock.insult(10);
-    ggIntelligence.css('color', 'red');
+    ggIntelligence.css('color', '#957f9c');
     ggIntelligence.text(Sherlock.intelligence);
     setTimeout(function () {
-      ggIntelligence.css('color', 'black');
+      ggIntelligence.css('color', '#244652');
     }, 1000);
   }
 

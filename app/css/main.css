@@ -2036,15 +2036,32 @@ body .mainContainer {
     display: flex;
     flex-direction: row;
     position: fixed;
-    color: white;
+    font-family: 'Candal', sans-serif;
+    color: #2c003a;
     padding: 100px; }
     body .mainContainer .gameElements .title {
-      margin-top: 75px;
-      margin-left: 450px; }
+      margin-top: -70px;
+      margin-left: 450px;
+      font-size: 30px; }
     body .mainContainer .gameElements .goodGuy {
-      margin-top: 125px;
-      margin-left: 100px; }
+      margin-top: 100px;
+      margin-left: 100px;
+      font-size: 20px; }
+    body .mainContainer .gameElements button {
+      margin-top: 235px;
+      margin-left: 30px;
+      border-radius: 15px;
+      background-color: #426876; }
     body .mainContainer .gameElements .badGuy {
-      margin-top: 110px; }
+      margin-top: 77px;
+      margin-left: 30px; }
+    body .mainContainer .gameElements .linkButton {
+      width: 100px;
+      flex-direction: row;
+      margin-top: 500px;
+      margin-left: -50px; }
+    body .mainContainer .gameElements .restart {
+      flex-direction: row;
+      margin-top: 500px; }
 
 /*# sourceMappingURL=main.css.map */
