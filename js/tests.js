@@ -1,6 +1,6 @@
 import GoodGuy from './GoodGuy';
 
-// import badguy
+import BadGuy from './BadGuy';
 // import goodguy attack method
 // import bad guy attack method
 // badguy health

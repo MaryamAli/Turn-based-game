@@ -2,5 +2,120 @@
 @import "font-awesome";
 
 body {
-  background: #e2ebf3;
-}
+   .mainContainer {
+      width: 1250px;
+      height: 1100px;
+      position: relative;
+      
+      .backgroundImage {
+      background: no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100%;
+      min-width: 1024px;
+      width: 100%;
+      height: auto;
+      // background-attachment: fixed;
+      position: fixed;
+      top: 0;
+      left: 0;
+      // display: flex;
+      // flex-direction: column;
+       }
+
+        //for Level 1
+        .gameElements {
+          display: flex;
+          flex-direction: row;
+          position: fixed;
+          font-family: 'Candal', sans-serif;
+          // font-weight: bold;
+          // top: 50%;
+          // left: 50%;
+          color: #2c003a;
+          padding: 100px;
+          .title {
+            margin-top: -80px;
+            margin-left: 450px;
+            font-size: 40px;
+            
+          }
+          
+          .goodGuy {
+            margin-top: 100px;
+            margin-left: 100px;
+            font-size: 20px;
+          }
+
+            button{   
+              margin-top: 235px;
+              margin-left: 30px;
+              border-radius: 15px;
+              background-color: #426876;
+            }
+          
+          .badGuy {
+            margin-top: 77px;
+            margin-left: 30px;
+
+          }
+           .linkButton {
+        width: 100px;
+        flex-direction: row;
+        margin-top: 500px;
+        margin-left: -50px; 
+      }
+          .restart {
+             flex-direction: row;
+        margin-top: 500px;
+        // margin-
+        
+          }
+        }
+
+      
+
+//for Level 2
+        .gameElements2 {
+          display: flex;
+          flex-direction: row;
+          position: fixed;
+          font-family: 'Candal', sans-serif;
+          color: #2c003a;
+          padding: 100px;
+          .title2 {
+            margin-top: -70px;
+            margin-left: 450px;
+            font-size: 30px;
+            
+          }
+          
+          .goodGuy2 {
+            margin-top: 100px;
+            margin-left: 100px;
+            font-size: 20px;
+          }
+
+            button2{   
+              margin-top: 235px;
+              margin-left: 30px;
+              border-radius: 15px;
+              background-color: #426876;
+            }
+          
+          .badGuy2 {
+            margin-top: 77px;
+            margin-left: 30px;
+
+          }
+        }
+
+
+    }
+    
+  }
+ 
+
+
+
+
+
