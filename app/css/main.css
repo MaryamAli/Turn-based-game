@@ -2018,7 +2018,33 @@
 .fa-fonticons:before {
   content: ""; }
 
-body {
-  background: #e2ebf3; }
+body .mainContainer {
+  width: 1250px;
+  height: 1100px;
+  position: relative; }
+  body .mainContainer .backgroundImage {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  body .mainContainer .gameElements {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    color: white;
+    padding: 100px; }
+    body .mainContainer .gameElements .title {
+      margin-top: 75px;
+      margin-left: 450px; }
+    body .mainContainer .gameElements .goodGuy {
+      margin-top: 125px;
+      margin-left: 100px; }
+    body .mainContainer .gameElements .badGuy {
+      margin-top: 110px; }
 
 /*# sourceMappingURL=main.css.map */
